@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /Users/giuliafiorenzano/.yarn/bin/yarn.js add @jest -D
+
+PATH: 
+  /Users/giuliafiorenzano/.yarn/bin:/Users/giuliafiorenzano/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/giuliafiorenzano/.yarn/bin:/Users/giuliafiorenzano/.config/yarn/global/node_modules/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:~/.composer/vendor/bin:~/.composer/vendor/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@jest: Request "https://registry.yarnpkg.com/@jest" returned a 405
+      at Request.params.callback [as _callback] (/Users/giuliafiorenzano/.yarn/lib/cli.js:67040:18)
+      at Request.self.callback (/Users/giuliafiorenzano/.yarn/lib/cli.js:140885:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/giuliafiorenzano/.yarn/lib/cli.js:141857:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/giuliafiorenzano/.yarn/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "01-aula",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
